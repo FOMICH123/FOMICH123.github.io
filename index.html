@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ОСНОВНЫЕ SEO-ТЕГИ ДЛЯ ЯНДЕКСА И GOOGLE -->
+  <title>Гастробар «ЛЕТО» в Александрове — Кафе, Летний Шатёр и Авторская Кухня</title>
+  <meta name="description" content="Гастробар ЛЕТО (Александров, СНТ Светлый пригород, Центральный проезд, д. 2) — теперь лето в городе всегда! Панорамное кафе, аренда шатра для банкетов и свадеб, римская пицца, паста и авторская кухня. Бронь: +7 (910) 177-33-03, +7 (910) 173-33-03." />
+  <meta name="keywords" content="гастробар лето, гастробар лето александров, кафе александров, ресторан александров, шатер для свадьбы александров, банкетный зал александров, терем 33 кафе, светлый пригород кафе, римская пицца александров" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Гастробар ЛЕТО" />
+  
+  <!-- ГЕО-ТЕГИ ДЛЯ ЛОКАЛЬНОГО ПОИСКА -->
+  <meta name="geo.region" content="RU-VLA" />
+  <meta name="geo.placename" content="Александров, СНТ Светлый пригород" />
+  <meta name="geo.position" content="56.404712;38.758461" />
+  <meta name="ICBM" content="56.404712, 38.758461" />
+  <meta name="format-detection" content="telephone=yes" />
+
+  <!-- OPEN GRAPH (ПРЕВЬЮ ССЫЛКИ В TELEGRAM И ВКОНТАКТЕ) -->
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:site_name" content="Гастробар ЛЕТО" />
+  <meta property="og:title" content="Гастробар «ЛЕТО» — Теперь лето в городе всегда!" />
+  <meta property="og:description" content="Панорамное кафе и белоснежный шатёр для торжеств в Александрове (СНТ Светлый пригород, Центральный проезд, д. 2). Авторская кухня, римская пицца, паста и напитки." />
+  <meta property="og:image" content="24730.jpg" />
+
+  <!-- ИКОНКА САЙТА (FAVICON) -->
+  <link rel="icon" type="image/png" href="24624.png" />
+
+  <!-- МИКРОРАЗМЕТКА SCHEMA.ORG (JSON-LD) ДЛЯ ПОИСКОВЫХ СИСТЕМ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Гастробар ЛЕТО",
+    "slogan": "Теперь лето в городе всегда!",
+    "description": "Панорамное кафе среди берёз и просторный летний шатёр для банкетов и событий в Александрове. Авторская европейская и паназиатская кухня, римская пицца, паста и карта напитков.",
+    "image": [
+      "24624.png",
+      "24730.jpg",
+      "24732.jpg",
+      "24725.jpg"
+    ],
+    "telephone": "+7-910-177-33-03",
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+7-910-177-33-03",
+        "contactType": "reservations",
+        "areaServed": "RU",
+        "availableLanguage": "Russian"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+7-910-173-33-03",
+        "contactType": "customer service",
+        "areaServed": "RU",
+        "availableLanguage": "Russian"
+      }
+    ],
+    "priceRange": "₽₽",
+    "servesCuisine": ["Европейская", "Итальянская", "Паназиатская", "Авторская"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "СНТ Светлый пригород, Центральный проезд, д. 2",
+      "addressLocality": "Александров",
+      "addressRegion": "Владимирская область",
+      "addressCountry": "RU"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 56.404712,
+      "longitude": 38.758461
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "11:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday"],
+        "opens": "12:00",
+        "closes": "21:00"
+      }
+    ],
+    "sameAs": [
+      "https://vk.ru/club242916118",
+      "https://t.me/gostdvorterem33"
+    ],
+    "acceptsReservations": "True"
+  }
+  </script>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            leto: {
+              bg: '#111210',
+              surface: '#171915',
+              card: '#1E211C',
+              olive: '#4A5238',
+              oliveHover: '#5C6646',
+              oak: '#9B6B3B',
+              sand: '#D9C5AC',
+              linen: '#EAE4DC',
+              neon: '#FFA94D',
+              muted: '#8C887F'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          },
+          boxShadow: {
+            'luxe': '0 25px 60px -15px rgba(0, 0, 0, 0.8)',
+            'soft-glow': '0 0 40px -10px rgba(255, 169, 77, 0.25)',
+            'linen-card': '0 25px 55px -12px rgba(0, 0, 0, 0.6)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: #111210; }
+    ::-webkit-scrollbar-thumb { background: #33372B; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #4A5238; }
+
+    /* Мягкое вписывание логотипа 24624.png без рамки */
+    .logo-blend {
+      mix-blend-mode: screen;
+      image-rendering: -webkit-optimize-contrast;
+      -webkit-mask-image: radial-gradient(ellipse 92% 88% at 50% 50%, black 65%, transparent 100%);
+      mask-image: radial-gradient(ellipse 92% 88% at 50% 50%, black 65%, transparent 100%);
+    }
+
+    /* Гладкие глубокие градиенты */
+    .hero-ambient {
+      background:
+        radial-gradient(circle at 50% 38%, rgba(255, 169, 77, 0.16) 0%, rgba(155, 107, 59, 0.06) 35%, transparent 70%),
+        linear-gradient(180deg, rgba(17, 18, 16, 0.82) 0%, rgba(17, 18, 16, 0.62) 50%, #111210 100%);
+    }
+
+    .menu-spread {
+      background:
+        radial-gradient(circle at 15% 10%, rgba(255, 169, 77, 0.06) 0%, transparent 40%),
+        radial-gradient(circle at 85% 90%, rgba(74, 82, 56, 0.12) 0%, transparent 45%),
+        linear-gradient(165deg, #181A16 0%, #131512 55%, #171915 100%);
+    }
+
+    .card-visual-bg {
+      background:
+        radial-gradient(circle at 75% 25%, rgba(255, 169, 77, 0.14) 0%, rgba(74, 82, 56, 0.26) 48%, #171915 100%);
+    }
+
+    .menu-tab-btn {
+      transition: all 0.25s ease;
+    }
+    .menu-tab-btn.active {
+      background-color: #4A5238;
+      color: #EAE4DC;
+      border-color: #D9C5AC;
+      box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.5);
+    }
+
+    .price-num {
+      font-variant-numeric: tabular-nums;
+    }
+  </style>
+</head>
+<body class="bg-leto-bg text-leto-linen font-sans antialiased selection:bg-leto-olive selection:text-white overflow-x-hidden">
+
+  <!-- БЕСШОВНЫЙ ВЕКТОРНЫЙ ШАБЛОН ЛОГОТИПА И СОЛНЦА -->
+  <svg width="0" height="0" class="hidden" aria-hidden="true">
+    <defs>
+      <g id="logo-paths">
+        <path d="M 105 495 C 215 395, 345 295, 428 242 C 442 233, 446 240, 436 258 C 398 326, 355 412, 332 465 C 322 488, 336 492, 368 472 C 402 452, 438 430, 462 418 C 498 400, 530 385, 526 368 C 522 352, 482 362, 462 396 C 444 426, 450 472, 482 472 C 516 472, 565 425, 612 385 C 620 378, 622 382, 615 396 L 588 468 C 612 425, 656 378, 678 378 C 688 378, 675 415, 658 465 C 685 422, 725 375, 746 375 C 756 375, 742 422, 736 452 C 732 470, 758 468, 795 432 C 822 406, 845 385, 865 375" />
+        <path d="M 892 364 C 862 368, 835 408, 838 446 C 841 476, 875 474, 904 442 C 932 410, 944 368, 920 356 C 904 348, 886 362, 882 374" />
+        <path d="M 610 352 Q 745 312 872 298" />
+        <path d="M 658 274 A 92 86 0 0 1 836 266" />
+        <line x1="630" y1="248" x2="572" y2="224" />
+        <line x1="680" y1="192" x2="646" y2="146" />
+        <line x1="747" y1="170" x2="745" y2="82" />
+        <line x1="814" y1="190" x2="848" y2="142" />
+        <line x1="864" y1="244" x2="920" y2="220" />
+      </g>
+
+      <g id="exact-logo-24624" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <use href="#logo-paths" stroke="#E6690A" stroke-width="34" opacity="0.14" />
+        <use href="#logo-paths" stroke="#FF8A1E" stroke-width="20" opacity="0.28" />
+        <use href="#logo-paths" stroke="#FFA94D" stroke-width="12" opacity="0.65" />
+        <use href="#logo-paths" stroke="#FFF6E6" stroke-width="7" />
+        <text x="598" y="568" text-anchor="middle" fill="#F5C78E" font-family="'Plus Jakarta Sans', sans-serif" font-size="38" font-weight="600" letter-spacing="18">ГАСТРОБАР</text>
+      </g>
+
+      <g id="sun-emblem" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M 10 26 A 14 14 0 0 1 38 26" />
+        <line x1="6" y1="18" x2="11" y2="20" />
+        <line x1="14" y1="9" x2="17" y2="14" />
+        <line x1="24" y1="4" x2="24" y2="12" />
+        <line x1="34" y1="9" x2="31" y2="14" />
+        <line x1="42" y1="18" x2="37" y2="20" />
+      </g>
+    </defs>
+  </svg>
+
+  <!-- 1. ВЕРХНЯЯ ИНФО-ПАНЕЛЬ С ОБОИМИ ТЕЛЕФОНАМИ -->
+  <div class="bg-[#0B0C0A] border-b border-leto-sand/10 text-[11px] text-leto-sand/85 py-2.5 px-4 relative z-50">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-3 flex-wrap">
+        <span class="inline-flex items-center gap-2 text-leto-linen font-medium">
+          <span id="live-status-dot" class="w-2 h-2 rounded-full bg-leto-neon animate-pulse"></span>
+          <span id="live-status-text">Будни: 11:00–20:00 • Выходные: 12:00–21:00</span>
+        </span>
+        <span class="text-leto-sand/20 hidden md:inline">•</span>
+        <a href="#contacts" class="hidden md:inline text-leto-sand/80 hover:text-leto-neon transition-colors">
+          📍 СНТ Светлый пригород, Центральный проезд, д. 2
+        </a>
+      </div>
+
+      <div class="flex items-center gap-4 flex-wrap">
+        <div class="hidden xl:flex items-center gap-3 text-leto-sand/80">
+          <a href="https://vk.ru/club242916118" target="_blank" rel="noopener" class="hover:text-leto-neon transition-colors font-medium">ВКонтакте</a>
+          <span class="text-leto-sand/20">•</span>
+          <a href="https://t.me/gostdvorterem33" target="_blank" rel="noopener" class="hover:text-leto-neon transition-colors font-medium">Telegram</a>
+          <span class="text-leto-sand/20">|</span>
+        </div>
+        <a href="tel:+79101773303" class="text-leto-linen font-semibold hover:text-leto-neon transition-colors flex items-center gap-1.5 tracking-wide">
+          <svg class="w-3.5 h-3.5 text-leto-neon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          +7 (910) 177-33-03
+        </a>
+        <span class="text-leto-sand/25 hidden sm:inline">•</span>
+        <a href="tel:+79101733303" class="text-leto-linen font-semibold hover:text-leto-neon transition-colors hidden sm:flex items-center gap-1 tracking-wide">
+          +7 (910) 173-33-03
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. НАВИГАЦИЯ -->
+  <header class="sticky top-0 z-40 bg-leto-bg/95 backdrop-blur-xl border-b border-leto-sand/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between gap-4">
+      
+      <!-- Логотип -->
+      <a href="#" class="shrink-0 group flex items-center" aria-label="Гастробар ЛЕТО — на главную">
+        <img src="24624.png" alt="Логотип Гастробар ЛЕТО Александров" class="h-14 w-auto object-contain logo-blend group-hover:scale-105 transition-transform duration-500" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+        <svg class="hidden h-14 w-auto group-hover:scale-105 transition-transform duration-500" viewBox="50 60 910 530">
+          <use href="#exact-logo-24624"></use>
+        </svg>
+      </a>
+
+      <!-- Меню -->
+      <nav class="hidden lg:flex items-center gap-8 text-[11px] font-medium tracking-[0.18em] uppercase text-leto-sand/80" aria-label="Основная навигация">
+        <a href="#atmosphere" class="hover:text-leto-neon transition-colors">Атмосфера</a>
+        <a href="#signature" class="hover:text-leto-neon transition-colors">Акценты кухни</a>
+        <a href="#menu-section" onclick="switchMenuSheet('kitchen')" class="hover:text-leto-neon transition-colors">Меню кухни</a>
+        <a href="#menu-section" onclick="switchMenuSheet('bar')" class="text-leto-neon hover:text-white transition-colors">Напитки</a>
+        <a href="#spaces" class="hover:text-leto-neon transition-colors">Кафе и Шатёр</a>
+        <a href="#contacts" class="hover:text-leto-neon transition-colors">Контакты</a>
+      </nav>
+
+      <!-- Кнопки справа (Бронь ведёт на телефон) -->
+      <div class="flex items-center gap-3 shrink-0">
+        <a href="#menu-section" class="hidden sm:inline-flex items-center px-5 py-2.5 rounded-full border border-leto-sand/25 hover:border-leto-sand/60 text-leto-linen text-[11px] font-medium tracking-[0.15em] uppercase transition-all">
+          Меню
+        </a>
+
+        <a href="tel:+79101773303" class="bg-leto-olive hover:bg-leto-oliveHover text-leto-linen px-6 py-2.5 rounded-full text-[11px] font-semibold tracking-[0.15em] uppercase flex items-center gap-2 border border-leto-sand/25 shadow-soft-glow transition-all active:scale-95">
+          <span>Позвонить</span>
+        </a>
+
+        <button onclick="toggleMobileNav()" class="lg:hidden p-2.5 text-leto-sand hover:text-white rounded-full border border-white/10" aria-label="Открыть меню">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Мобильное меню -->
+    <div id="mobile-nav" class="hidden lg:hidden bg-leto-surface border-b border-leto-sand/15 px-6 py-6 space-y-4 text-xs uppercase tracking-[0.2em] text-leto-sand">
+      <a href="#atmosphere" onclick="toggleMobileNav()" class="block py-1 hover:text-white">Атмосфера и зал</a>
+      <a href="#signature" onclick="toggleMobileNav()" class="block py-1 hover:text-white">Акценты кухни</a>
+      <a href="#menu-section" onclick="switchMenuSheet('kitchen'); toggleMobileNav()" class="block py-1 text-leto-neon font-semibold">Меню кухни</a>
+      <a href="#menu-section" onclick="switchMenuSheet('bar'); toggleMobileNav()" class="block py-1 text-leto-neon font-semibold">Напитки</a>
+      <a href="#spaces" onclick="toggleMobileNav()" class="block py-1 hover:text-white">Кафе и Шатёр</a>
+      <a href="tel:+79101773303" class="block py-1 text-white font-bold">Позвонить: +7 (910) 177-33-03</a>
+      <a href="tel:+79101733303" class="block py-1 text-white font-bold">Позвонить: +7 (910) 173-33-03</a>
+      <div class="pt-3 border-t border-white/10 flex gap-4">
+        <a href="https://vk.ru/club242916118" target="_blank" rel="noopener" class="text-leto-neon">ВКонтакте</a>
+        <a href="https://t.me/gostdvorterem33" target="_blank" rel="noopener" class="text-leto-neon">Telegram</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 3. ГЛАВНЫЙ ЭКРАН -->
+    <section class="relative min-h-[86vh] flex items-center justify-center overflow-hidden bg-leto-bg">
+      <div class="absolute inset-0 z-0 overflow-hidden card-visual-bg">
+        <img src="24730.jpg" alt="Панорамный зал кафе Гастробар ЛЕТО в Александрове" class="w-full h-full object-cover object-center opacity-35 scale-105 blur-[1.5px]" onerror="this.style.display='none'" />
+        <div class="absolute inset-0 hero-ambient"></div>
+      </div>
+
+      <div class="relative z-10 max-w-5xl mx-auto px-4 py-16 text-center flex flex-col items-center">
+        <div class="inline-flex items-center gap-3 px-5 py-1.5 rounded-full bg-white/[0.04] border border-leto-sand/20 backdrop-blur-md mb-7">
+          <span class="w-1.5 h-1.5 rounded-full bg-leto-neon"></span>
+          <span class="text-[10px] sm:text-[11px] uppercase tracking-[0.35em] text-leto-sand font-medium">Природа &nbsp;×&nbsp; Вкус &nbsp;×&nbsp; Лето</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-leto-neon"></span>
+        </div>
+
+        <!-- Крупный фирменный логотип -->
+        <div class="w-80 sm:w-[450px] md:w-[520px] mb-4 flex justify-center">
+          <img src="24624.png" alt="Гастробар ЛЕТО — логотип" class="w-full h-auto object-contain logo-blend" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+          <svg class="hidden w-full h-auto overflow-visible" viewBox="50 60 910 530" role="img" aria-label="Лето Гастробар">
+            <use href="#exact-logo-24624"></use>
+          </svg>
+        </div>
+
+        <!-- СЛОГАН -->
+        <h1 class="font-serif italic text-4xl sm:text-6xl md:text-7xl text-leto-neon font-normal tracking-wide leading-tight mb-6 max-w-3xl">
+          <span class="sr-only">Гастробар ЛЕТО в Александрове — </span>Теперь лето в городе всегда!
+        </h1>
+
+        <p class="text-leto-sand/85 text-sm sm:text-base md:text-lg max-w-2xl font-light leading-relaxed mb-10">
+          Тёплое пространство, где хорошая еда собирает людей. Солнечное панорамное кафе, просторный белоснежный шатёр для торжеств, авторская кухня и согревающие напитки.
+        </p>
+
+        <!-- Кнопки на главном экране (ведут на меню и на звонок) -->
+        <div class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+          <a href="#menu-section" class="w-full sm:w-auto px-10 py-4 rounded-full bg-leto-olive hover:bg-leto-oliveHover text-leto-linen font-semibold text-xs uppercase tracking-[0.2em] border border-leto-sand/35 shadow-luxe transition-all active:scale-95">
+            Смотреть меню
+          </a>
+          <a href="tel:+79101773303" class="w-full sm:w-auto px-10 py-4 rounded-full bg-white/[0.06] hover:bg-white/[0.12] text-leto-linen font-semibold text-xs uppercase tracking-[0.2em] border border-leto-sand/25 backdrop-blur-md transition-all active:scale-95">
+            Забронировать: +7 (910) 177-33-03
+          </a>
+        </div>
+
+        <!-- Нижняя плашка фактов -->
+        <div class="mt-16 pt-8 border-t border-leto-sand/15 grid grid-cols-1 sm:grid-cols-3 gap-6 text-xs w-full max-w-4xl">
+          <div class="flex flex-col items-center">
+            <span class="uppercase tracking-[0.25em] text-[10px] text-leto-oak font-bold mb-1">Режим работы</span>
+            <span class="font-serif text-lg text-leto-linen">Будни 11–20 • Выходные 12–21</span>
+          </div>
+          <div class="flex flex-col items-center sm:border-x border-leto-sand/15 px-4">
+            <span class="uppercase tracking-[0.25em] text-[10px] text-leto-oak font-bold mb-1">Адрес</span>
+            <span class="font-serif text-lg text-leto-linen">СНТ Светлый пригород, Центральный пр-д, д. 2</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <span class="uppercase tracking-[0.25em] text-[10px] text-leto-oak font-bold mb-1">Телефоны для брони</span>
+            <div class="flex flex-col sm:flex-row items-center gap-1 sm:gap-3 font-serif text-lg text-leto-neon">
+              <a href="tel:+79101773303" class="hover:underline">+7 (910) 177-33-03</a>
+              <span class="hidden sm:inline text-leto-sand/40">•</span>
+              <a href="tel:+79101733303" class="hover:underline">+7 (910) 173-33-03</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. АТМОСФЕРА И ИНТЕРЬЕР -->
+    <section id="atmosphere" class="py-24 bg-leto-bg relative border-t border-leto-sand/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-14">
+          <div class="lg:col-span-7">
+            <div class="flex items-center gap-3 text-leto-oak mb-3">
+              <svg class="w-8 h-5"><use href="#sun-emblem"></use></svg>
+              <span class="text-[11px] uppercase tracking-[0.3em] font-semibold">Эстетика и уют</span>
+            </div>
+            <h2 class="font-serif text-4xl sm:text-5xl md:text-6xl text-leto-linen font-normal leading-[1.12]">
+              Лето — это когда вкусно, тепло и рядом <span class="italic text-leto-sand">хорошие люди</span>
+            </h2>
+          </div>
+          <div class="lg:col-span-5 text-sm text-leto-sand/75 font-light leading-relaxed">
+            Уютный зал кафе с тёплым деревянным потолком, панорамными окнами, мягкими велюровыми диванами и креслами, а также светлый торжественный шатёр с хрустальной люстрой для ваших особенных событий.
+          </div>
+        </div>
+
+        <!-- Фото-галерея -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+          
+          <div class="md:col-span-7 group relative rounded-[28px] overflow-hidden card-visual-bg border border-leto-sand/15 min-h-[360px] sm:min-h-[420px] flex flex-col justify-end p-7 sm:p-9 shadow-luxe">
+            <img src="24730.jpg" alt="Интерьер зала кафе Гастробар ЛЕТО с деревянными столами и велюровыми креслами" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" onerror="this.style.display='none'" />
+            <div class="absolute inset-0 bg-gradient-to-t from-leto-bg/95 via-leto-bg/30 to-transparent"></div>
+            <div class="relative z-10 max-w-lg">
+              <span class="inline-block px-3.5 py-1 rounded-full bg-leto-olive text-leto-linen text-[10px] uppercase tracking-[0.2em] font-semibold mb-3 border border-leto-sand/30">
+                Зал Кафе
+              </span>
+              <h3 class="font-serif text-3xl sm:text-4xl text-leto-linen mb-2">Солнечный панорамный зал</h3>
+              <p class="text-xs sm:text-sm text-leto-sand/90 font-light leading-relaxed">
+                Натуральное дерево, глубокие изумрудные и акцентные велюровые кресла, много естественного света и домашний уют.
+              </p>
+            </div>
+          </div>
+
+          <div class="md:col-span-5 group relative rounded-[28px] overflow-hidden card-visual-bg border border-leto-sand/15 min-h-[360px] sm:min-h-[420px] flex flex-col justify-end p-7 sm:p-9 shadow-luxe">
+            <img src="24729.jpg" alt="Праздничная сервировка стола с бокалами в кафе Гастробар ЛЕТО" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" onerror="this.style.display='none'" />
+            <div class="absolute inset-0 bg-gradient-to-t from-leto-bg/95 via-leto-bg/30 to-transparent"></div>
+            <div class="relative z-10">
+              <span class="inline-block px-3.5 py-1 rounded-full bg-leto-oak text-leto-linen text-[10px] uppercase tracking-[0.2em] font-semibold mb-3 border border-leto-sand/30">
+                Внимание к деталям
+              </span>
+              <h3 class="font-serif text-3xl text-leto-linen mb-2">Эстетика каждого стола</h3>
+              <p class="text-xs sm:text-sm text-leto-sand/90 font-light leading-relaxed">
+                Изящная сервировка для тёплых семейных обедов, дружеских ужинов и камерных праздников с видом на природу.
+              </p>
+            </div>
+          </div>
+
+          <div class="md:col-span-5 group relative rounded-[28px] overflow-hidden card-visual-bg border border-leto-sand/15 min-h-[340px] sm:min-h-[380px] flex flex-col justify-end p-7 sm:p-9 shadow-luxe">
+            <img src="24731.jpg" alt="Свадебный и праздничный банкет в летнем шатре Гастробар ЛЕТО" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" onerror="this.style.display='none'" />
+            <div class="absolute inset-0 bg-gradient-to-t from-leto-bg/95 via-leto-bg/30 to-transparent"></div>
+            <div class="relative z-10">
+              <span class="text-[10px] uppercase tracking-[0.25em] text-leto-neon font-bold block mb-1">Торжества на природе</span>
+              <h3 class="font-serif text-2xl sm:text-3xl text-leto-linen mb-2">Свадьбы и юбилеи</h3>
+              <p class="text-xs text-leto-sand/85 font-light leading-relaxed">
+                Праздничное оформление столов в окружении живых берёз и сосен.
+              </p>
+            </div>
+          </div>
+
+          <div class="md:col-span-7 group relative rounded-[28px] overflow-hidden card-visual-bg border border-leto-sand/15 min-h-[340px] sm:min-h-[380px] flex flex-col justify-end p-7 sm:p-9 shadow-luxe">
+            <img src="24732.jpg" alt="Белоснежный банкетный шатёр с хрустальной люстрой в Гастробаре ЛЕТО" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" onerror="this.style.display='none'" />
+            <div class="absolute inset-0 bg-gradient-to-t from-leto-bg/95 via-leto-bg/30 to-transparent"></div>
+            <div class="relative z-10 max-w-lg">
+              <span class="inline-block px-3.5 py-1 rounded-full bg-leto-olive text-leto-linen text-[10px] uppercase tracking-[0.2em] font-semibold mb-3 border border-leto-sand/30">
+                Летний Шатёр
+              </span>
+              <h3 class="font-serif text-3xl sm:text-4xl text-leto-linen mb-2">Просторный купол с хрустальной люстрой</h3>
+              <p class="text-xs sm:text-sm text-leto-sand/90 font-light leading-relaxed">
+                Воздушная драпировка, круглые банкетные столы в фирменном оливковом текстиле и комфортная посадка для масштабных событий.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. АКЦЕНТЫ НАШЕЙ КУХНИ -->
+    <section id="signature" class="py-20 bg-leto-surface border-y border-leto-sand/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
+          <div>
+            <span class="text-[11px] uppercase tracking-[0.28em] text-leto-oak font-semibold block mb-2">Вкус лета в каждой детали</span>
+            <h2 class="font-serif text-4xl sm:text-5xl text-leto-linen font-normal">Акценты нашей кухни</h2>
+          </div>
+          <a href="#menu-section" class="text-xs uppercase tracking-[0.2em] text-leto-neon hover:text-leto-linen transition-colors flex items-center gap-2">
+            <span>Смотреть всё меню и напитки</span>
+            <span>→</span>
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <article class="bg-leto-card rounded-[24px] overflow-hidden border border-leto-sand/15 hover:border-leto-sand/40 transition-all duration-500 group flex flex-col justify-between shadow-luxe">
+            <div>
+              <div class="h-60 overflow-hidden relative card-visual-bg flex items-center justify-center">
+                <svg class="w-12 h-8 text-leto-sand/20 absolute"><use href="#sun-emblem"></use></svg>
+                <img src="24725.jpg" alt="Кростини с лососем, сливочным кремом и авокадо в Гастробаре ЛЕТО" loading="lazy" class="relative z-10 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onerror="this.style.display='none'" />
+                <span class="absolute top-3.5 left-3.5 z-20 bg-leto-bg/85 backdrop-blur-md text-leto-sand text-[10px] font-semibold uppercase tracking-widest px-3 py-1 rounded-full border border-white/10">Стартеры</span>
+              </div>
+              <div class="p-6 pt-5">
+                <h3 class="font-serif text-2xl text-leto-linen leading-snug">Кростини с лососем и авокадо</h3>
+                <p class="text-xs text-leto-sand/65 mt-2 font-light leading-relaxed">
+                  Хрустящий багет со слабосолёным лососем, нежным сливочным кремом, спелым авокадо и микрозеленью
+                </p>
+              </div>
+            </div>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 flex items-center justify-between">
+              <span class="text-[11px] uppercase tracking-wider text-leto-sand/50">Закуски</span>
+              <span class="font-serif text-2xl font-bold text-leto-neon price-num">479 ₽</span>
+            </div>
+          </article>
+
+          <article class="bg-leto-card rounded-[24px] overflow-hidden border border-leto-sand/15 hover:border-leto-sand/40 transition-all duration-500 group flex flex-col justify-between shadow-luxe">
+            <div>
+              <div class="h-60 overflow-hidden relative card-visual-bg flex items-center justify-center">
+                <svg class="w-12 h-8 text-leto-sand/20 absolute"><use href="#sun-emblem"></use></svg>
+                <img src="24728.jpg" alt="Паста Лингвини с креветками и томатами в сливочном соусе" loading="lazy" class="relative z-10 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onerror="this.style.display='none'" />
+                <span class="absolute top-3.5 left-3.5 z-20 bg-leto-bg/85 backdrop-blur-md text-leto-sand text-[10px] font-semibold uppercase tracking-widest px-3 py-1 rounded-full border border-white/10">Паста</span>
+              </div>
+              <div class="p-6 pt-5">
+                <h3 class="font-serif text-2xl text-leto-linen leading-snug">Лингвини с креветками и томатами</h3>
+                <p class="text-xs text-leto-sand/65 mt-2 font-light leading-relaxed">
+                  Паста лингвини с тигровыми креветками и сочными томатами в бархатном сливочном соусе под пармезаном
+                </p>
+              </div>
+            </div>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 flex items-center justify-between">
+              <span class="text-[11px] uppercase tracking-wider text-leto-sand/50">Паста</span>
+              <span class="font-serif text-2xl font-bold text-leto-neon price-num">735 ₽</span>
+            </div>
+          </article>
+
+          <article class="bg-leto-card rounded-[24px] overflow-hidden border border-leto-sand/15 hover:border-leto-sand/40 transition-all duration-500 group flex flex-col justify-between shadow-luxe">
+            <div>
+              <div class="h-60 overflow-hidden relative card-visual-bg flex items-center justify-center">
+                <svg class="w-12 h-8 text-leto-sand/20 absolute"><use href="#sun-emblem"></use></svg>
+                <img src="24726.jpg" alt="Лапша Удон с курицей и овощами в паназиатском стиле" loading="lazy" class="relative z-10 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onerror="this.style.display='none'" />
+                <span class="absolute top-3.5 left-3.5 z-20 bg-leto-bg/85 backdrop-blur-md text-leto-sand text-[10px] font-semibold uppercase tracking-widest px-3 py-1 rounded-full border border-white/10">Вок & Паста</span>
+              </div>
+              <div class="p-6 pt-5">
+                <h3 class="font-serif text-2xl text-leto-linen leading-snug">Удон в паназиатском стиле</h3>
+                <p class="text-xs text-leto-sand/65 mt-2 font-light leading-relaxed">
+                  Пшеничная лапша с обжаренными овощами, кунжутом и кинзой — с нежной курицей или креветками на выбор
+                </p>
+              </div>
+            </div>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 flex items-center justify-between">
+              <span class="text-[11px] uppercase tracking-wider text-leto-sand/50">С курицей / креветками</span>
+              <span class="font-serif text-2xl font-bold text-leto-neon price-num">569 / 659 ₽</span>
+            </div>
+          </article>
+
+          <article class="bg-leto-card rounded-[24px] overflow-hidden border border-leto-sand/15 hover:border-leto-sand/40 transition-all duration-500 group flex flex-col justify-between shadow-luxe">
+            <div>
+              <div class="h-60 overflow-hidden relative card-visual-bg flex items-center justify-center">
+                <svg class="w-12 h-8 text-leto-sand/20 absolute"><use href="#sun-emblem"></use></svg>
+                <img src="24727.jpg" alt="Грузинский салат из свежих овощей и зелени с ореховой заправкой" loading="lazy" class="relative z-10 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onerror="this.style.display='none'" />
+                <span class="absolute top-3.5 left-3.5 z-20 bg-leto-bg/85 backdrop-blur-md text-leto-sand text-[10px] font-semibold uppercase tracking-widest px-3 py-1 rounded-full border border-white/10">Салаты</span>
+              </div>
+              <div class="p-6 pt-5">
+                <h3 class="font-serif text-2xl text-leto-linen leading-snug">Грузинский салат с орехами</h3>
+                <p class="text-xs text-leto-sand/65 mt-2 font-light leading-relaxed">
+                  Спелые томаты, хрустящие огурцы, сладкий перец и ароматная зелень под традиционной ореховой заправкой
+                </p>
+              </div>
+            </div>
+            <div class="px-6 pb-6 pt-3 border-t border-white/5 flex items-center justify-between">
+              <span class="text-[11px] uppercase tracking-wider text-leto-sand/50">Салаты</span>
+              <span class="font-serif text-2xl font-bold text-leto-neon price-num">489 ₽</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. РЕСТОРАННЫЙ РАЗВОРОТ МЕНЮ КУХНИ И НАПИТКОВ -->
+    <section id="menu-section" class="py-24 bg-leto-bg">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+
+        <div class="menu-spread rounded-[36px] p-6 sm:p-12 lg:p-16 border border-leto-sand/20 shadow-luxe relative overflow-hidden">
+          
+          <div class="hidden sm:block absolute inset-4 rounded-[28px] border border-leto-sand/10 pointer-events-none"></div>
+
+          <!-- Шапка меню -->
+          <div class="relative z-10 flex flex-col items-center text-center mb-10">
+            <div class="w-52 sm:w-64 mb-2 flex justify-center">
+              <img src="24624.png" alt="Меню Гастробар ЛЕТО" class="w-full h-auto object-contain logo-blend" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+              <svg class="hidden w-full h-auto overflow-visible" viewBox="50 60 910 530">
+                <use href="#exact-logo-24624"></use>
+              </svg>
+            </div>
+            <div class="flex items-center gap-4 mt-1">
+              <span class="w-12 h-px bg-leto-sand/30"></span>
+              <h2 class="font-serif text-xl sm:text-2xl tracking-[0.35em] text-leto-linen uppercase">М Е Н Ю</h2>
+              <span class="w-12 h-px bg-leto-sand/30"></span>
+            </div>
+          </div>
+
+          <!-- Вкладки меню и поиск -->
+          <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-4 mb-12 pb-6 border-b border-leto-sand/15">
+            <div class="flex flex-wrap items-center justify-center gap-2.5">
+              <button onclick="switchMenuSheet('kitchen')" id="sheet-btn-kitchen" class="menu-tab-btn active px-6 py-2.5 rounded-full text-xs font-semibold tracking-[0.15em] uppercase border border-leto-sand/25 text-leto-sand">
+                Основное меню кухни
+              </button>
+              <button onclick="switchMenuSheet('bar')" id="sheet-btn-bar" class="menu-tab-btn px-6 py-2.5 rounded-full text-xs font-semibold tracking-[0.15em] uppercase border border-leto-sand/25 text-leto-sand">
+                ☀ Напитки
+              </button>
+              <button onclick="switchMenuSheet('all')" id="sheet-btn-all" class="menu-tab-btn px-5 py-2.5 rounded-full text-xs font-semibold tracking-[0.15em] uppercase border border-leto-sand/25 text-leto-sand">
+                Все позиции
+              </button>
+            </div>
+
+            <div class="relative w-full md:w-64 shrink-0">
+              <input type="text" id="board-search" oninput="renderMenuSpread()" placeholder="Поиск блюда или напитка..." aria-label="Поиск по меню" class="w-full bg-white/[0.04] border border-leto-sand/25 rounded-full pl-9 pr-4 py-2 text-xs text-leto-linen placeholder-leto-sand/45 focus:outline-none focus:border-leto-neon transition-colors">
+              <svg class="w-3.5 h-3.5 text-leto-sand/50 absolute left-3.5 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            </div>
+          </div>
+
+          <!-- ДВУХКОЛОНОЧНЫЙ СБАЛАНСИРОВАННЫЙ РАЗВОРОТ -->
+          <div id="menu-spread-container" class="relative z-10"></div>
+
+          <!-- Юридическое примечание к меню -->
+          <div class="relative z-10 mt-14 pt-8 border-t border-leto-sand/15 text-center space-y-4">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] uppercase tracking-[0.35em] text-leto-sand/60">
+              <span>ГАСТРОБАР ЛЕТО</span>
+              <svg class="w-8 h-5 text-leto-neon"><use href="#sun-emblem"></use></svg>
+              <span>АЛЕКСАНДРОВ</span>
+            </div>
+            <p class="text-[11px] text-leto-sand/45 max-w-3xl mx-auto font-light leading-relaxed">
+              Цены указаны в рублях РФ. Информация о блюдах, напитках и ценах на сайте носит исключительно информационный характер и не является публичной офертой, определяемой положениями ст. 437 ГК РФ. Сведения о пищевой и энергетической ценности (КБЖУ), полном составе блюд и наличии возможных аллергенов вы всегда можете уточнить у сотрудников гастробара перед заказом.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. КАФЕ И ЛЕТНИЙ ШАТЁР (КНОПКИ ВЕДУТ НА ТЕЛЕФОН) -->
+    <section id="spaces" class="py-20 bg-leto-surface border-t border-leto-sand/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto mb-14">
+          <span class="text-[11px] uppercase tracking-[0.28em] text-leto-oak font-semibold">Две площадки для вашего отдыха</span>
+          <h2 class="font-serif text-4xl sm:text-5xl text-leto-linen font-normal mt-2">
+            Кафе и Летний Шатёр
+          </h2>
+          <p class="text-xs sm:text-sm text-leto-sand/75 mt-3 font-light">
+            Выберите уютный столик в основном зале кафе или забронируйте просторный шатёр для вашего торжества по телефону
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="bg-leto-card rounded-[28px] overflow-hidden border border-leto-sand/15 shadow-luxe flex flex-col justify-between group">
+            <div>
+              <div class="h-72 overflow-hidden relative card-visual-bg flex items-center justify-center">
+                <img src="24730.jpg" alt="Бронирование столика в зале Кафе Гастробар ЛЕТО" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onerror="this.style.display='none'" />
+                <div class="absolute inset-0 bg-gradient-to-t from-leto-card via-transparent to-transparent"></div>
+                <span class="absolute top-4 left-4 z-10 bg-leto-olive text-leto-linen text-[11px] font-semibold uppercase tracking-wider px-4 py-1.5 rounded-full border border-leto-sand/30">
+                  Основной зал • Кафе
+                </span>
+              </div>
+              <div class="p-7 sm:p-9">
+                <h3 class="font-serif text-3xl sm:text-4xl text-leto-linen mb-3">Кафе «Гастробар ЛЕТО»</h3>
+                <p class="text-xs sm:text-sm text-leto-sand/75 font-light leading-relaxed mb-6">
+                  Тёплый панорамный зал с деревянными столами и мягкими велюровыми креслами. Подходит для ежедневных обедов, романтических ужинов и камерных семейных праздников.
+                </p>
+                <div class="grid grid-cols-2 gap-3 text-xs text-leto-sand/90">
+                  <div class="p-3.5 rounded-2xl bg-leto-bg/60 border border-white/5">✓ Панорамные окна</div>
+                  <div class="p-3.5 rounded-2xl bg-leto-bg/60 border border-white/5">✓ Уютный свет и климат</div>
+                  <div class="p-3.5 rounded-2xl bg-leto-bg/60 border border-white/5">✓ Кухня и карта напитков</div>
+                  <div class="p-3.5 rounded-2xl bg-leto-bg/60 border border-white/5">✓ Будни 11–20, Вых 12–21</div>
+                </div>
+              </div>
+            </div>
+            <div class="px-7 sm:px-9 pb-8">
+              <a href="tel:+79101773303" class="block w-full py-4 rounded-full bg-leto-olive hover:bg-leto-oliveHover text-leto-linen text-xs font-bold uppercase tracking-[0.18em] text-center border border-leto-sand/25 transition-all active:scale-95">
+                Позвонить и забронировать Кафе
+              </a>
+            </div>
+          </div>
+
+          <div class="bg-leto-card rounded-[28px] overflow-hidden border border-leto-sand/15 shadow-luxe flex flex-col justify-between group">
+            <div>
+              <div class="h-72 overflow-hidden relative card-visual-bg flex items-center justify-center">
+                <img src="24732.jpg" alt="Аренда и бронирование летнего шатра для банкета и свадьбы в Гастробаре ЛЕТО" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onerror="this.style.display='none'" />
+                <div class="absolute inset-0 bg-gradient-to-t from-leto-card via-transparent to-transparent"></div>
+                <span class="absolute top-4 left-4 z-10 bg-leto-oak text-leto-linen text-[11px] font-semibold uppercase tracking-wider px-4 py-1.5 rounded-full border border-leto-sand/30">
+                  Для событий • Шатёр
+                </span>
+              </div>
+              <div class="p-7 sm:p-9">
+                <h3 class="font-serif text-3xl sm:text-4xl text-leto-linen mb-3">Шатёр «Гастробар ЛЕТО»</h3>
+                <p class="text-xs sm:text-sm text-leto-sand/75 font-light leading-relaxed mb-6">
+                  Просторный белоснежный шатёр с хрустальной люстрой и круглыми банкетными столами для проведения свадеб, юбилеев, выпускных и корпоративных торжеств на свежем воздухе.
+                </p>
+                <div class="grid grid-cols-2 gap-3 text-xs text-leto-sand/90">
+                  <div class="p-3.5 rounded-2xl bg-leto-bg/60 border border-white/5">✓ Приватная территория</div>
+                  <div class="p-3.5 rounded-2xl bg-leto-bg/60 border border-white/5">✓ Круглые банкетные столы</div>
+                  <div class="p-3.5 rounded-2xl bg-leto-bg/60 border border-white/5">✓ Для больших компаний</div>
+                  <div class="p-3.5 rounded-2xl bg-leto-bg/60 border border-white/5">✓ Персональный сервис</div>
+                </div>
+              </div>
+            </div>
+            <div class="px-7 sm:px-9 pb-8">
+              <a href="tel:+79101773303" class="block w-full py-4 rounded-full bg-leto-oak hover:bg-leto-olive text-leto-linen text-xs font-bold uppercase tracking-[0.18em] text-center border border-leto-sand/25 transition-all active:scale-95">
+                Позвонить и забронировать Шатёр
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. СЕКЦИЯ БРОНИРОВАНИЯ ПО ТЕЛЕФОНУ (ОБА НОМЕРА + TELEGRAM И ВК) -->
+    <section id="booking" class="py-24 bg-leto-bg border-t border-leto-sand/10">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        
+        <div class="bg-leto-linen text-leto-bg rounded-[36px] p-8 sm:p-12 md:p-16 shadow-linen-card border border-leto-sand relative overflow-hidden">
+          <svg class="w-64 h-40 text-leto-oak/10 absolute -right-10 -bottom-10 pointer-events-none"><use href="#sun-emblem"></use></svg>
+
+          <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            <div class="lg:col-span-7 space-y-4">
+              <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-leto-olive/15 text-leto-olive text-[11px] font-bold uppercase tracking-widest">
+                <span class="w-2 h-2 rounded-full bg-leto-olive animate-pulse"></span>
+                Бронирование столов и мероприятий
+              </div>
+              <h2 class="font-serif text-3xl sm:text-5xl font-semibold text-leto-bg leading-tight">
+                Забронируйте Кафе или Шатёр по телефону
+              </h2>
+              <p class="text-xs sm:text-sm text-leto-bg/75 leading-relaxed max-w-xl">
+                Позвоните нам по любому из номеров, чтобы забронировать столик в зале Кафе, обсудить банкетное меню или арендовать Летний Шатёр под ваше торжество.
+              </p>
+              <div class="pt-2 flex flex-wrap items-center gap-6 text-xs text-leto-bg/80">
+                <div><b class="text-leto-bg">Будни:</b> 11:00 — 20:00</div>
+                <div><b class="text-leto-bg">Выходные:</b> 12:00 — 21:00</div>
+                <div><b class="text-leto-bg">Адрес:</b> СНТ Светлый пригород, Центральный проезд, д. 2</div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-5 flex flex-col gap-3">
+              <a href="tel:+79101773303" class="w-full py-4 px-6 rounded-2xl bg-leto-olive hover:bg-leto-oliveHover text-leto-linen font-bold text-xs uppercase tracking-[0.16em] text-center shadow-lg transition-all active:scale-95 flex items-center justify-center gap-2.5">
+                <svg class="w-4 h-4 text-leto-neon shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                <span>+7 (910) 177-33-03</span>
+              </a>
+              <a href="tel:+79101733303" class="w-full py-4 px-6 rounded-2xl bg-leto-oak hover:bg-leto-olive text-leto-linen font-bold text-xs uppercase tracking-[0.16em] text-center shadow-md transition-all active:scale-95 flex items-center justify-center gap-2.5">
+                <svg class="w-4 h-4 text-leto-linen shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                <span>+7 (910) 173-33-03</span>
+              </a>
+              <div class="grid grid-cols-2 gap-3 pt-1">
+                <a href="https://t.me/gostdvorterem33" target="_blank" rel="noopener" class="py-3.5 px-4 rounded-2xl bg-white hover:bg-leto-bg hover:text-leto-linen text-leto-bg font-semibold text-xs uppercase tracking-wider text-center border border-leto-bg/15 transition-all">
+                  Telegram
+                </a>
+                <a href="https://vk.ru/club242916118" target="_blank" rel="noopener" class="py-3.5 px-4 rounded-2xl bg-white hover:bg-leto-bg hover:text-leto-linen text-leto-bg font-semibold text-xs uppercase tracking-wider text-center border border-leto-bg/15 transition-all">
+                  ВКонтакте
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- 9. КОНТАКТЫ, ВАШ ВИДЖЕТ ЯНДЕКС КАРТ И ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ РФ -->
+  <footer id="contacts" class="bg-leto-surface border-t border-leto-sand/15 text-xs text-leto-sand/75">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-16 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      
+      <div class="lg:col-span-5 space-y-6">
+        <div class="w-56">
+          <img src="24624.png" alt="Гастробар ЛЕТО" class="w-full h-auto object-contain logo-blend" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+          <svg class="hidden w-full h-auto overflow-visible" viewBox="50 60 910 530">
+            <use href="#exact-logo-24624"></use>
+          </svg>
+        </div>
+
+        <p class="font-serif text-3xl text-leto-neon italic leading-snug">
+          Теперь лето в городе всегда!
+        </p>
+
+        <div class="space-y-2.5 text-leto-sand/90 text-xs sm:text-sm">
+          <p><b class="text-leto-linen">Адрес:</b> Владимирская обл., г. Александров, СНТ Светлый пригород, Центральный проезд, д. 2</p>
+          <p><b class="text-leto-linen">Будни:</b> 11:00 — 20:00</p>
+          <p><b class="text-leto-linen">Выходные:</b> 12:00 — 21:00</p>
+          <p><b class="text-leto-linen">Телефоны:</b></p>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4 pt-0.5">
+            <a href="tel:+79101773303" class="text-leto-neon font-bold text-base hover:underline">+7 (910) 177-33-03</a>
+            <a href="tel:+79101733303" class="text-leto-neon font-bold text-base hover:underline">+7 (910) 173-33-03</a>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-3 pt-2">
+          <a href="tel:+79101773303" class="px-5 py-3 bg-leto-olive hover:bg-leto-oliveHover rounded-full border border-leto-sand/25 text-xs font-semibold text-leto-linen tracking-wider uppercase transition-all">
+            Позвонить
+          </a>
+          <a href="https://t.me/gostdvorterem33" target="_blank" rel="noopener" class="px-5 py-3 bg-leto-bg hover:bg-leto-card rounded-full border border-leto-sand/25 text-xs font-semibold text-leto-linen tracking-wider uppercase transition-all flex items-center gap-2">
+            <svg class="w-4 h-4 text-leto-neon" fill="currentColor" viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            <span>Telegram</span>
+          </a>
+          <a href="https://vk.ru/club242916118" target="_blank" rel="noopener" class="px-5 py-3 bg-leto-bg hover:bg-leto-card rounded-full border border-leto-sand/25 text-xs font-semibold text-leto-linen tracking-wider uppercase transition-all flex items-center gap-2">
+            <svg class="w-4 h-4 text-leto-neon" fill="currentColor" viewBox="0 0 24 24"><path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.727-1.033-1-1.49-1.135-1.744-1.135-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4.03 8.57 4.03 8.096c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.677.863 2.49 2.303 4.675 2.896 4.675.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.204.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.254-1.406 2.151-3.574 2.151-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.27.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.05.17.49-.085.744-.576.744z"/></svg>
+            <span>ВКонтакте</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ВАШ ВИДЖЕТ ЯНДЕКС КАРТ (ЦЕНТРАЛЬНЫЙ ПРОЕЗД, 2) -->
+      <div class="lg:col-span-7 rounded-[28px] overflow-hidden border border-leto-sand/20 bg-leto-card shadow-luxe">
+        <div style="position:relative;overflow:hidden;" class="w-full h-[360px] sm:h-[400px]">
+          <a href="https://yandex.ru/maps/10656/aleksandrov/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Александров</a>
+          <a href="https://yandex.ru/maps/10658/vladimir-oblast/house/tsentralny_proyezd_2/Z0EYcQJoTU0AQFtsfXhxdXthYw==/?ll=38.758661%2C56.404748&utm_medium=mapframe&utm_source=maps&z=18.5" style="color:#eee;font-size:12px;position:absolute;top:14px;">Центральный проезд, 2 — Яндекс Карты</a>
+          <iframe src="https://yandex.ru/map-widget/v1/?ll=38.758661%2C56.404748&mode=whatshere&whatshere%5Bpoint%5D=38.758461%2C56.404712&whatshere%5Bzoom%5D=17&z=18.5" width="100%" height="400" frameborder="0" allowfullscreen="true" style="position:relative;" class="w-full h-full"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- НИЖНИЙ ЮРИДИЧЕСКИЙ БЛОК -->
+    <div class="border-t border-white/10 py-8 bg-[#0D0E0C]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col lg:flex-row items-center justify-between gap-6 text-[11px] text-leto-sand/55">
+        <div class="text-center lg:text-left space-y-1">
+          <p class="text-leto-sand/80 font-medium">© 2026 ГАСТРОБАР ЛЕТО • СНТ Светлый пригород, Центральный проезд, д. 2.</p>
+          <p>ИП Фомичев Виктор Владимирович • ИНН 331103908234 • Все права защищены.</p>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center gap-5 text-leto-sand/75">
+          <button onclick="openLegalModal('privacy')" class="hover:text-leto-neon underline underline-offset-4 transition-colors">
+            Политика конфиденциальности (152-ФЗ)
+          </button>
+          <button onclick="openLegalModal('terms')" class="hover:text-leto-neon underline underline-offset-4 transition-colors">
+            Пользовательское соглашение и правовая информация
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- МОБИЛЬНАЯ НИЖНЯЯ ПАНЕЛЬ -->
+  <div class="lg:hidden fixed bottom-0 left-0 right-0 p-3 bg-leto-bg/95 backdrop-blur-xl border-t border-leto-sand/15 z-30 flex items-center gap-2.5">
+    <a href="#menu-section" class="px-5 py-3 rounded-full border border-leto-sand/30 text-leto-linen text-xs font-semibold uppercase tracking-wider">Меню</a>
+    <a href="tel:+79101773303" class="flex-1 py-3 px-4 rounded-full bg-leto-olive text-leto-linen text-xs font-semibold uppercase tracking-wider text-center border border-leto-sand/25">
+      Позвонить: +7 (910) 177-33-03
+    </a>
+  </div>
+
+  <!-- БАННЕР СОГЛАСИЯ НА ОБРАБОТКУ ФАЙЛОВ COOKIE (152-ФЗ РФ) -->
+  <div id="cookie-banner" class="hidden fixed bottom-16 lg:bottom-6 left-4 right-4 sm:left-auto sm:right-6 sm:max-w-md z-50 bg-leto-card/95 backdrop-blur-xl border border-leto-sand/25 rounded-3xl p-5 shadow-luxe text-xs text-leto-sand/90">
+    <div class="flex items-start justify-between gap-4">
+      <div class="space-y-1.5">
+        <p class="font-semibold text-leto-linen">Мы используем файлы cookie</p>
+        <p class="text-[11px] text-leto-sand/70 leading-relaxed">
+          Продолжая пользоваться сайтом Гастробара «ЛЕТО», вы соглашаетесь с использованием файлов cookie и <button onclick="openLegalModal('privacy')" class="text-leto-neon underline">Политикой обработки персональных данных</button> в соответствии с 152-ФЗ РФ.
+        </p>
+      </div>
+    </div>
+    <div class="mt-4 flex justify-end">
+      <button onclick="acceptCookies()" class="px-6 py-2 rounded-full bg-leto-olive hover:bg-leto-oliveHover text-leto-linen font-semibold text-[11px] uppercase tracking-wider border border-leto-sand/30 transition-all">
+        Хорошо, понятно
+      </button>
+    </div>
+  </div>
+
+  <!-- МОДАЛЬНОЕ ОКНО ЮРИДИЧЕСКИХ ДОКУМЕНТОВ -->
+  <div id="legal-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div class="fixed inset-0 bg-black/80 backdrop-blur-sm" onclick="closeLegalModal()"></div>
+    <div class="relative z-10 w-full max-w-2xl max-h-[85vh] bg-leto-surface border border-leto-sand/25 rounded-3xl p-6 sm:p-10 shadow-luxe flex flex-col text-leto-linen">
+      <div class="flex items-center justify-between pb-4 mb-5 border-b border-white/10">
+        <h3 id="legal-modal-title" class="font-serif text-2xl sm:text-3xl text-leto-neon">Правовая информация</h3>
+        <button onclick="closeLegalModal()" class="p-2 text-leto-sand hover:text-white rounded-full border border-white/10" aria-label="Закрыть окно">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div id="legal-modal-body" class="overflow-y-auto space-y-4 text-xs sm:text-sm text-leto-sand/85 leading-relaxed pr-2 font-light"></div>
+      <div class="pt-5 mt-5 border-t border-white/10 flex justify-end">
+        <button onclick="closeLegalModal()" class="px-6 py-2.5 rounded-full bg-leto-olive text-leto-linen text-xs font-semibold uppercase tracking-wider">
+          Закрыть
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- СКРИПТ МЕНЮ КУХНИ, ОБНОВЛЁННОЙ КАРТЫ НАПИТКОВ И ЧАСОВ РАБОТЫ -->
+  <script>
+    const menuData = {
+      starters: {
+        title: 'ЗАКУСКИ И СТАРТЕРЫ',
+        items: [
+          { name: 'Микс крупных оливок и маслин, маринованных по-Каталонски', desc: '', price: '355 ₽' },
+          { name: 'Паштет куриный под карамелью с луком конфи и тёплыми тостами', desc: '', price: '349 ₽' },
+          { name: 'Креветки в сладком васаби соусе и икрой тобико', desc: '', price: '489 ₽' },
+          { name: 'Кростини с печёными овощами, ореховым соусом и хрустящим луком', desc: '', price: '385 ₽' },
+          { name: 'Антипасти сет (wine)', desc: 'пармезан / оливки / чоризо / гриссини / коппа / орехи / виноград / вяленые томаты / копченый сыр', price: '879 ₽' },
+          { name: 'Кростини с лососем, сливочным кремом и авокадо', desc: '', price: '479 ₽' }
+        ]
+      },
+      wine_cuts: {
+        title: 'НАРЕЗКА ПОД ВИНО И ИГРИСТОЕ',
+        isCompactGrid: true,
+        items: [
+          { name: 'Пармезан 40 г', desc: '', price: '155 ₽' },
+          { name: 'Дор блю 40 г', desc: '', price: '155 ₽' },
+          { name: 'Чоризо пикантная 40 г', desc: '', price: '155 ₽' },
+          { name: 'Коппа вяленая 40 г', desc: '', price: '155 ₽' }
+        ]
+      },
+      salads: {
+        title: 'САЛАТЫ',
+        items: [
+          { name: 'Хрустящие баклажаны со спелыми томатами и сливочным кремом', desc: '', price: '529 ₽' },
+          { name: 'Грузинский салат из овощей и зелени с ореховой заправкой', desc: '', price: '489 ₽' },
+          { name: 'Салат с ростбифом, авокадо и луком конфи', desc: '', price: '675 ₽' },
+          { name: 'Цезарь с куриным филе гриль', desc: '', price: '579 ₽' },
+          { name: 'Цезарь с обжаренными креветками', desc: '', price: '649 ₽' },
+          { name: 'Салат с тёплыми морепродуктами в сливочном соусе по-Марсельски', desc: '', price: '699 ₽' }
+        ]
+      },
+      soups: {
+        title: 'СУПЫ',
+        items: [
+          { name: 'Итальянский томатный крем-суп с пармезаном и гренками', desc: '', price: '379 ₽' },
+          { name: 'Большой Том ям с креветками (острый)', desc: '', price: '579 ₽' },
+          { name: 'Том ям для Леди (чуть больше кокосового молока)', desc: '', price: '579 ₽' },
+          { name: 'Куриный суп с пастой птитим', desc: '', price: '379 ₽' }
+        ]
+      },
+      hot_starters: {
+        title: 'ГОРЯЧИЕ ЗАКУСКИ',
+        items: [
+          { name: 'Картофельные стрипсы с луком и перцем', desc: '', price: '189 ₽' },
+          { name: 'Хрустящие креветки с копчёным сладким чили', desc: '', price: '519 ₽' },
+          { name: 'Чесночные гренки из ароматного хлеба с соусом тар-тар', desc: '', price: '279 ₽' },
+          { name: 'Хрустящий батат с авторским соусом', desc: '', price: '329 ₽' },
+          { name: 'Жульен грибной, запечённый в тарталетках', desc: 'с зелёным салатом и вялеными томатами', price: '389 ₽' },
+          { name: 'Наггетсы (8 шт.) с авторским спайси соусом', desc: '', price: '339 ₽' },
+          { name: 'Картофель фри', desc: '', price: '189 ₽' },
+          { name: 'Фиш энд Чипс', desc: 'сочное филе трески в хрустящей корочке и картофельные стрипсы с двумя соусами: тар-тар, том ям', price: '469 ₽' },
+          { name: 'Соус 50 г', desc: 'Кетчуп / Блю чиз / BBQ (Барбекю) / Цезарь / Унаги / Сладкий чили', price: '85 ₽' }
+        ]
+      },
+      pasta: {
+        title: 'ПАСТА',
+        items: [
+          { name: 'Лингвини Карбонара', desc: '', price: '589 ₽' },
+          { name: 'Лингвини с креветками и томатами в сливочном соусе', desc: '', price: '735 ₽' },
+          { name: 'Удон с курицей и овощами в паназиатском стиле', desc: '', price: '569 ₽' },
+          { name: 'Удон с креветками и овощами в паназиатском стиле', desc: '', price: '659 ₽' },
+          { name: 'Лингвини Помодоро со спелыми томатами и пармезаном', desc: '', price: '475 ₽' },
+          { name: 'Тальятелле с лососем и тобико в розовом соусе', desc: '', price: '739 ₽' },
+          { name: 'Тальятелле 4 сыра в сочетании с виноградом и миндалём', desc: '', price: '539 ₽' }
+        ]
+      },
+      mains: {
+        title: 'ГОРЯЧЕЕ',
+        items: [
+          { name: 'Тальята из говяжьей вырезки со спаржей и вешенками в трюфельном соусе', desc: '', price: '889 ₽' },
+          { name: 'Креветки в сладком чили соусе с авокадо и шпинатом', desc: '', price: '825 ₽' },
+          { name: 'Сочное куриное филе гриль с цукини, вялеными томатами и перечным соусом', desc: '', price: '629 ₽' }
+        ]
+      },
+      pizza: {
+        title: 'РИМСКАЯ ПИЦЦА',
+        items: [
+          { name: 'Маргарита', desc: '', price: '549 ₽' },
+          { name: 'Пепперони', desc: '', price: '649 ₽' },
+          { name: '4 сыра с грушей', desc: '', price: '635 ₽' },
+          { name: 'Цезарь с курицей', desc: '', price: '679 ₽' },
+          { name: 'Супер мясная с луком конфи', desc: '', price: '695 ₽' }
+        ]
+      },
+      // • НАПИТКИ (ТОЧНО ПО ФАЙЛУ Напитки — Гастробар ЛЕТО (14).pdf) •
+      bar_tea: {
+        title: 'ЧАЙ ЛИСТОВОЙ 900 МЛ',
+        items: [
+          { name: 'Чёрный (900 мл)', desc: 'Ассам / Эрл Грей / С чабрецом', price: '299 ₽' },
+          { name: 'Зелёный (900 мл)', desc: 'Ганпаудер / Молочный Улун / С жасмином', price: '299 ₽' },
+          { name: 'Травяной сбор (900 мл)', desc: 'Сердце Алтая / Малина с мятой на гибискусе / Монастырский сбор', price: '299 ₽' },
+          { name: 'Ароматный и бодрящий (900 мл)', desc: 'Гречишный / Габа юдзу имбирь / Шу Пуэр', price: '299 ₽' },
+          { name: 'Добавки к чаю', desc: 'мята перечная / ромашка / чабрец / жасмин бутоны', price: '49 ₽' }
+        ]
+      },
+      bar_fruittea: {
+        title: 'АВТОРСКИЙ ЧАЙ БЕЗ ЧАЯ 900 МЛ',
+        items: [
+          { name: 'Облепиха карамель (900 мл)', desc: '', price: '375 ₽' },
+          { name: 'Тропический (900 мл)', desc: '', price: '375 ₽' },
+          { name: 'Малина ваниль (900 мл)', desc: '', price: '375 ₽' }
+        ]
+      },
+      bar_coffee: {
+        title: 'КОФЕ',
+        items: [
+          { name: 'Эспрессо (45 мл / 90 мл)', desc: '', price: '129 / 189 ₽' },
+          { name: 'Американо (160 мл)', desc: '', price: '150 ₽' },
+          { name: 'Капучино (160 мл)', desc: '', price: '200 ₽' },
+          { name: 'Латте (200 мл)', desc: '', price: '200 ₽' },
+          { name: 'Сиропы', desc: 'ваниль / шоколад / карамель / соленая карамель / миндаль / кокос / мята / апельсин', price: '45 ₽' }
+        ]
+      },
+      bar_lemonades: {
+        title: 'ЛИМОНАДЫ (400 МЛ / 1000 МЛ)',
+        items: [
+          { name: 'Малина бузина (400 мл / 1000 мл)', desc: '', price: '289 / 579 ₽' },
+          { name: 'Облепиха апельсин (400 мл / 1000 мл)', desc: '', price: '289 / 579 ₽' },
+          { name: 'Малина маракуйя (400 мл / 1000 мл)', desc: '', price: '289 / 579 ₽' }
+        ]
+      },
+      bar_milkshakes: {
+        title: 'МОЛОЧНЫЕ КОКТЕЙЛИ 380 МЛ',
+        items: [
+          { name: 'Молочные коктейли (380 мл)', desc: 'Ваниль / Шоколад / Карамель / Соленая карамель', price: '315 ₽' }
+        ]
+      }
+    };
+
+    let currentSheet = 'kitchen';
+
+    function switchMenuSheet(sheet) {
+      currentSheet = sheet;
+      document.querySelectorAll('.menu-tab-btn').forEach(b => b.classList.remove('active'));
+      const activeBtn = document.getElementById(`sheet-btn-${sheet}`);
+      if (activeBtn) activeBtn.classList.add('active');
+      renderMenuSpread();
+    }
+
+    function buildCategoryBlock(secKey, query) {
+      const sec = menuData[secKey];
+      if (!sec) return '';
+
+      const filtered = sec.items.filter(item =>
+        !query ||
+        item.name.toLowerCase().includes(query) ||
+        (item.desc && item.desc.toLowerCase().includes(query))
+      );
+
+      if (!filtered.length) return '';
+
+      if (sec.isCompactGrid) {
+        return `
+          <div class="py-5 px-6 rounded-2xl bg-white/[0.025] border border-leto-sand/15">
+            <h3 class="font-serif text-lg sm:text-xl tracking-[0.18em] text-leto-neon uppercase mb-4">
+              • ${sec.title} •
+            </h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2.5">
+              ${filtered.map(item => `
+                <div class="grid grid-cols-[1fr_auto] gap-3 items-baseline border-b border-leto-sand/10 pb-2">
+                  <span class="text-sm text-leto-linen font-medium">${item.name}</span>
+                  <span class="font-sans font-bold text-sm text-leto-neon price-num">${item.price}</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      return `
+        <div>
+          <div class="flex items-center gap-3 mb-5">
+            <h3 class="font-serif text-xl sm:text-2xl tracking-[0.16em] text-leto-neon uppercase font-semibold">
+              • ${sec.title} •
+            </h3>
+            <div class="h-px flex-1 bg-gradient-to-r from-leto-neon/40 to-transparent"></div>
+          </div>
+
+          <div class="divide-y divide-leto-sand/10">
+            ${filtered.map(item => `
+              <div class="py-3.5 first:pt-0 last:pb-0 group">
+                <div class="grid grid-cols-[1fr_auto] gap-4 items-baseline">
+                  <h4 class="text-sm sm:text-[15px] font-medium text-leto-linen group-hover:text-leto-neon transition-colors leading-snug">
+                    ${item.name}
+                  </h4>
+                  <span class="font-sans font-bold text-sm sm:text-[15px] text-leto-neon whitespace-nowrap price-num">
+                    ${item.price}
+                  </span>
+                </div>
+                ${item.desc ? `<p class="text-xs text-leto-sand/60 font-light mt-1 leading-relaxed pr-8">${item.desc}</p>` : ''}
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderMenuSpread() {
+      const q = (document.getElementById('board-search')?.value || '').toLowerCase().trim();
+      const container = document.getElementById('menu-spread-container');
+
+      let leftKeys = [];
+      let rightKeys = [];
+
+      if (currentSheet === 'kitchen') {
+        leftKeys = ['starters', 'wine_cuts', 'salads', 'soups'];
+        rightKeys = ['hot_starters', 'pasta', 'mains', 'pizza'];
+      } else if (currentSheet === 'bar') {
+        leftKeys = ['bar_tea', 'bar_fruittea'];
+        rightKeys = ['bar_coffee', 'bar_lemonades', 'bar_milkshakes'];
+      } else {
+        leftKeys = ['starters', 'wine_cuts', 'salads', 'soups', 'bar_tea', 'bar_fruittea'];
+        rightKeys = ['hot_starters', 'pasta', 'mains', 'pizza', 'bar_coffee', 'bar_lemonades', 'bar_milkshakes'];
+      }
+
+      const leftHtml = leftKeys.map(k => buildCategoryBlock(k, q)).filter(Boolean).join('');
+      const rightHtml = rightKeys.map(k => buildCategoryBlock(k, q)).filter(Boolean).join('');
+
+      if (!leftHtml && !rightHtml) {
+        container.innerHTML = `<div class="text-center py-12 text-leto-sand/60 text-sm">По вашему запросу позиций не найдено</div>`;
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 relative">
+          <div class="hidden lg:block absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-leto-sand/20 to-transparent -translate-x-1/2 pointer-events-none"></div>
+
+          <div class="space-y-10">
+            ${leftHtml}
+          </div>
+
+          <div class="space-y-10">
+            ${rightHtml}
+          </div>
+        </div>
+      `;
+    }
+
+    // Статус работы: Будни (Пн–Пт) 11:00–20:00, Выходные (Сб–Вс) 12:00–21:00
+    function updateWorkingStatus() {
+      const now = new Date();
+      const day = now.getDay();
+      const mins = now.getHours() * 60 + now.getMinutes();
+      const isWeekend = (day === 0 || day === 6);
+      const openMins = isWeekend ? 12 * 60 : 11 * 60;
+      const closeMins = isWeekend ? 21 * 60 : 20 * 60;
+      const closeStr = isWeekend ? '21:00' : '20:00';
+
+      const dot = document.getElementById('live-status-dot');
+      const txt = document.getElementById('live-status-text');
+      if (!dot || !txt) return;
+
+      if (mins >= openMins && mins < closeMins) {
+        dot.className = 'w-2 h-2 rounded-full bg-emerald-400 animate-pulse';
+        txt.innerText = `Сейчас открыто (до ${closeStr}) • Будни 11–20, Выходные 12–21`;
+      } else {
+        dot.className = 'w-2 h-2 rounded-full bg-leto-neon';
+        txt.innerText = `Будни: 11:00–20:00 • Выходные: 12:00–21:00`;
+      }
+    }
+
+    function toggleMobileNav() {
+      document.getElementById('mobile-nav').classList.toggle('hidden');
+    }
+
+    // Юридические модальные окна (152-ФЗ РФ)
+    const legalContent = {
+      privacy: {
+        title: 'Политика конфиденциальности (152-ФЗ)',
+        body: `
+          <p>Настоящая Политика в отношении обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006 № 152-ФЗ «О персональных данных» и определяет порядок обработки и меры по обеспечению безопасности персональных данных у Оператора — <b>ИП Фомичев Виктор Владимирович (ИНН 331103908234)</b>.</p>
+          <p><b class="text-leto-linen">1. Какие данные обрабатываются:</b> На сайте Гастробара «ЛЕТО» не осуществляется сбор платёжных данных или анкетных форм. Технически обрабатываются обезличенные файлы cookie для корректного отображения интерфейса, а при обращении по телефонам +7 (910) 177-33-03 и +7 (910) 173-33-03 или в мессенджеры (Telegram, ВКонтакте) пользователь добровольно сообщает имя и контактный телефон для бронирования столика или шатра.</p>
+          <p><b class="text-leto-linen">2. Цели обработки данных:</b> Бронирование столов в зале кафе и аренда летнего шатра, обратная связь с гостями, информирование об услугах и обеспечение стабильной работы веб-сайта.</p>
+          <p><b class="text-leto-linen">3. Защита и хранение данных:</b> Оператор принимает все необходимые правовые, организационные и технические меры для защиты персональных данных от неправомерного доступа. Персональные данные хранятся исключительно на территории Российской Федерации и не передаются третьим лицам без согласия субъекта, за исключением случаев, предусмотренных законодательством РФ.</p>
+          <p><b class="text-leto-linen">4. Права пользователя:</b> Гость вправе в любой момент запросить уточнение или удаление своих персональных данных, обратившись по телефонам +7 (910) 177-33-03, +7 (910) 173-33-03 или по адресу заведения: Владимирская обл., г. Александров, СНТ Светлый пригород, Центральный проезд, д. 2.</p>
+        `
+      },
+      terms: {
+        title: 'Пользовательское соглашение и правовая информация',
+        body: `
+          <p><b class="text-leto-linen">1. Статус информации на сайте (ст. 437 ГК РФ):</b> Вся представленная на сайте информация о блюдах кухни, напитках, стоимости позиций и условиях аренды площадок (Кафе и Летний Шатёр) носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 Гражданского кодекса Российской Федерации.</p>
+          <p><b class="text-leto-linen">2. Информация для потребителей (Правила оказания услуг общественного питания):</b> Исполнитель услуг — ИП Фомичев Виктор Владимирович (ИНН 331103908234). Полное потребительское меню с указанием выхода готовых блюд в граммах, сведений о пищевой и энергетической ценности (белки, жиры, углеводы, калорийность), а также книга отзывов и предложений находятся в уголке потребителя в зале Гастробара «ЛЕТО» по адресу: Владимирская область, г. Александров, СНТ Светлый пригород, Центральный проезд, д. 2.</p>
+          <p><b class="text-leto-linen">3. Предупреждение об аллергенах:</b> Блюда готовятся на кухне, где используются орехи, молочные продукты, глютен, морепродукты, кунжут и иные ингредиенты. При наличии пищевой аллергии или индивидуальной непереносимости обязательно сообщите об этом официанту или администратору до оформления заказа.</p>
+          <p><b class="text-leto-linen">4. Авторские права:</b> Фирменное наименование, логотип «Лето Гастробар», фотографии интерьера и блюд защищены законодательством РФ об интеллектуальной собственности. Копирование материалов сайта без письменного согласия правообладателя запрещено.</p>
+        `
+      }
+    };
+
+    function openLegalModal(type) {
+      const doc = legalContent[type];
+      if (!doc) return;
+      document.getElementById('legal-modal-title').innerText = doc.title;
+      document.getElementById('legal-modal-body').innerHTML = doc.body;
+      document.getElementById('legal-modal').classList.remove('hidden');
+    }
+
+    function closeLegalModal() {
+      document.getElementById('legal-modal').classList.add('hidden');
+    }
+
+    // Логика Cookie-баннера
+    function initCookieBanner() {
+      if (!localStorage.getItem('leto_cookie_accepted_2026')) {
+        document.getElementById('cookie-banner').classList.remove('hidden');
+      }
+    }
+
+    function acceptCookies() {
+      localStorage.setItem('leto_cookie_accepted_2026', 'true');
+      document.getElementById('cookie-banner').classList.add('hidden');
+    }
+
+    renderMenuSpread();
+    updateWorkingStatus();
+    initCookieBanner();
+  </script>
+</body>
+</html>
+
+
